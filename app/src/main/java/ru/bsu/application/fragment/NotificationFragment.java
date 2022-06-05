@@ -124,8 +124,6 @@ public class NotificationFragment extends Fragment {
         pendingIntent = PendingIntent.getBroadcast(getContext(), 0, intent, 0);
         alarmManager.setRepeating(AlarmManager.RTC_WAKEUP, calendar.getTimeInMillis(),
                 1000 * 60, pendingIntent);
-
-        Toast.makeText(getContext(), "Alarm set Succesfully", Toast.LENGTH_SHORT).show();
     }
 
     private void cancelAlarm() {
@@ -137,8 +135,6 @@ public class NotificationFragment extends Fragment {
         }
 
         alarmManager.cancel(pendingIntent);
-        Toast.makeText(getContext(), "Alarm cancelled", Toast.LENGTH_SHORT).show();
-
     }
 
     private String loadLogin() {
