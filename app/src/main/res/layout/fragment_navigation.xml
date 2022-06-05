@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".activity.MainActivity">
+
+    <com.yandex.mapkit.mapview.MapView
+        android:id="@+id/map_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/buttonZoomMinus"
+            android:layout_width="103dp"
+            android:layout_height="102dp"
+            android:elevation="6dp"
+            android:translationZ="4dp"
+            android:stateListAnimator="@animator/button_login_selector"
+            android:layout_alignStart="@+id/buttonZoomPlus"
+            android:layout_alignTop="@+id/buttonZoomPlus"
+            android:layout_alignEnd="@+id/buttonZoomPlus"
+            android:layout_alignBottom="@+id/buttonZoomPlus"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="58dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="-65dp"
+            android:background="@drawable/icon_minus"
+            android:text="" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/buttonGps"
+            android:layout_width="104dp"
+            android:layout_height="103dp"
+            android:layout_alignStart="@+id/buttonZoomPlus"
+            android:layout_alignTop="@+id/buttonZoomPlus"
+            android:layout_alignEnd="@+id/buttonZoomPlus"
+            android:layout_alignBottom="@+id/buttonZoomPlus"
+            android:layout_marginStart="-1dp"
+            android:layout_marginTop="159dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="-167dp"
+            android:background="@drawable/icon_gps"
+            android:text="" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/buttonZoomPlus"
+            android:layout_width="114dp"
+            android:layout_height="103dp"
+            android:layout_alignStart="@+id/map_navigation"
+            android:layout_alignTop="@+id/map_navigation"
+            android:layout_alignBottom="@+id/map_navigation"
+            android:layout_marginStart="296dp"
+            android:layout_marginTop="280dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="348dp"
+            android:background="@drawable/icon_plus"
+            android:text="" />
+
+    </com.yandex.mapkit.mapview.MapView>
+
+</RelativeLayout>

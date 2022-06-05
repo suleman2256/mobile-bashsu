@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/accountFragment"
+        android:icon="@drawable/icon_account"
+        android:checked="true"
+        android:title="" />
+
+    <item
+        android:id="@+id/campusFragment"
+        android:icon="@drawable/icon_campus"
+        android:title="" />
+
+    <item
+        android:id="@+id/posterFragment"
+        android:icon="@drawable/icon_poster"
+        android:title="" />
+
+    <item
+        android:id="@+id/navigationFragment"
+        android:icon="@drawable/icon_navigation"
+        android:title="" />
+
+</menu>

@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">MyBashSU</string>
+    <string name="title_activity_splash">SplashActivity</string>
+
+    <!-- Login and Registration activity -->
+    <string name="login">Логин</string>
+    <string name="password">Пароль</string>
+    <string name="repeat_password">Повторите пароль</string>
+    <string name="action_sign_in">Войти</string>
+    <string name="login_failed">Не успешно! Повторите авторизацию.</string>
+    <string name="login_title">Авторизация</string>
+    <string name="welcome">Добро пожаловать!</string>
+    <string name="next">Далее</string>
+    <string name="back">Назад</string>
+
+    <!-- Campus activity -->
+    <string name="faq">Часто задаваемые вопросы</string>
+    <string name="registration_documents">Заказать документ</string>
+    <string name="medical_examination">Миграционное законодательство</string>
+    <string name="contacts">Адреса и контакты</string>
+    <string name="title_activity_login2">LoginActivity2</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="error_cant_get_my_location">Error location</string>
+    <string name="coordinates_are_not_yet_determinate">хз</string>
+
+    <!-- Account Header -->
+    <string name="notification">Уведомления</string>
+    <string name="settings">Настройки</string>
+    <string name="logout">Выйти</string>
+    <string name="profile">Профиль</string>
+    <string name="student">Студент</string>
+    <string name="group">группа</string>
+    <string name="email">Почта</string>
+    <string name="changeEmail">Сменить почту</string>
+    <string name="currentPassword">Текущий пароль</string>
+    <string name="newPassword">Новый пароль</string>
+    <string name="repeatNewPassword">Повторите новый пароль</string>
+    <string name="changedPassword">Сменить пароль</string>
+    <string name="title_item_notification">Название</string>
+    <string name="description_item_notification">Описание</string>
+    <string name="time">Начало</string>
+    <string name="cost">Стоимость</string>
+    <string name="location_poster">Место</string>
+    <string name="reason_cancellation_poster">Причина отмены</string>
+    <string name="date">Дата</string>
+</resources>

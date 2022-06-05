@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "26179675857",
+    "project_id": "mybashsu",
+    "storage_bucket": "mybashsu.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:26179675857:android:6c7a1d07291677feafc7f0",
+        "android_client_info": {
+          "package_name": "ru.bsu.application"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "26179675857-e95ka1pvurhiauj689s0vmt93o859vav.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6vaqUzQ-syNFQY34MzQbYTi4N03wOpk0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "26179675857-e95ka1pvurhiauj689s0vmt93o859vav.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

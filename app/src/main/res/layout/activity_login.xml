@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+        <ProgressBar
+            android:id="@+id/loading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="64dp"
+            android:layout_marginBottom="64dp"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/password"
+            app:layout_constraintStart_toStartOf="@+id/password"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.3" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="96dp"
+            android:fontFamily="@font/comfortaa"
+            android:text="@string/login_title"
+            android:textAlignment="center"
+            android:textColor="#0051AD"
+            android:textSize="36sp" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/username"
+            android:singleLine="true"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:layout_marginTop="35dp"
+            android:autofillHints=""
+            android:background="@drawable/edittext_bg_login"
+            android:fontFamily="sans-serif"
+            android:hint="@string/login"
+            android:text=""
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/password"
+            android:singleLine="true"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:layout_marginTop="15dp"
+            android:autofillHints=""
+            android:background="@drawable/edittext_bg_login"
+            android:fontFamily="sans-serif"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/loginButton"
+            app:cornerRadius="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:layout_gravity="start"
+            android:layout_marginTop="45dp"
+            android:elevation="6dp"
+            android:stateListAnimator="@animator/button_login_selector"
+            android:translationZ="4dp"
+            android:fontFamily="@font/roboto_black"
+            android:text="@string/action_sign_in"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+</LinearLayout>
