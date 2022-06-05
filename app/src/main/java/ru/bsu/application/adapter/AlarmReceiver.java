@@ -59,7 +59,7 @@ public class AlarmReceiver extends BroadcastReceiver {
                     if (responseNotification != null) {
                         if (responseNotification.size() > notificationList.size()) {
                             NotificationCompat.Builder builder = new NotificationCompat.Builder(context, "notificationId")
-                                    .setSmallIcon(R.drawable.ic_launcher_background)
+                                    .setSmallIcon(R.mipmap.ic_launcher_round)
                                     .setContentTitle("Вам пришло уведомление!")
                                     .setContentText("Нажмите, чтобы прочесть его.")
                                     .setAutoCancel(true)

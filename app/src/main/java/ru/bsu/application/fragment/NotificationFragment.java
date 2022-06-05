@@ -123,7 +123,7 @@ public class NotificationFragment extends Fragment {
         Intent intent = new Intent(getContext(), AlarmReceiver.class);
         pendingIntent = PendingIntent.getBroadcast(getContext(), 0, intent, 0);
         alarmManager.setRepeating(AlarmManager.RTC_WAKEUP, calendar.getTimeInMillis(),
-                1000 * 1800, pendingIntent);
+                1000 * 5, pendingIntent);
     }
 
     private void cancelAlarm() {
