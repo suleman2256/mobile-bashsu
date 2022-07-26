@@ -8,8 +8,8 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class RetrofitClient {
 
-    private static  final String BASE_URL = "http://10.0.2.2:8091/api/"; //local emulator
-    //private static  final String BASE_URL = "http://localhost:8091/api/"; //xiaomi
+    //private static  final String BASE_URL = "http://10.0.2.2:8091/api/"; //local emulator
+    private static  final String BASE_URL = "http://localhost:8091/api/"; //xiaomi
     private static RetrofitClient mInstance = null;
     private API myApi;
 

@@ -8,6 +8,7 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -30,6 +31,7 @@ public class LoginActivity extends AppCompatActivity {
     private EditText userNameET;
     private EditText passwordET;
     private SharedPreferences sPref;
+    private TextView losePassword;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,6 +43,14 @@ public class LoginActivity extends AppCompatActivity {
 
         userNameET = binding.username;
         passwordET = binding.password;
+        losePassword = binding.textViewLosePassword;
+
+        losePassword.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(LoginActivity.this, "Обратитесь в \"Отдел рекрутинга и сопровождения иностранных обучающихся\"!", Toast.LENGTH_LONG).show();
+            }
+        });
 
         String token = loadToken();
         String username = loadLogin();

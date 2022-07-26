@@ -44,4 +44,5 @@
     <string name="location_poster">Место</string>
     <string name="reason_cancellation_poster">Причина отмены</string>
     <string name="date">Дата</string>
+    <string name="losePassword">Забыли пароль?</string>
 </resources>
